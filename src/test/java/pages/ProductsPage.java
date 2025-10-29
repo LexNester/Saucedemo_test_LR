@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -22,7 +21,6 @@ public class ProductsPage {
     private final By productNames = By.cssSelector("div.inventory_item_name");
     private final By productImages = By.cssSelector("div.inventory_item img");
     private final By sortSelect = By.cssSelector("select.product_sort_container");
-
 
     public ProductsPage(WebDriver driver) {
         this.driver = driver;
