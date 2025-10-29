@@ -6,8 +6,6 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.ProductsPage;
 
-@Epic("Авторизация")
-@Feature("Вход в систему")
 public class LoginTests extends BaseTest {
 
     @Test(description = "Позитивный сценарий: успешный вход стандартного пользователя")
